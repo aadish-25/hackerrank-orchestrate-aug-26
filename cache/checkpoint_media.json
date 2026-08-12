@@ -1,0 +1,779 @@
+{
+  "msg_005": {
+    "status": "done",
+    "metadata": {
+      "media_type": "image",
+      "file_name": "img_008.jpg"
+    },
+    "result": {
+      "visible_text": "",
+      "detected_urls": [],
+      "detected_qr_codes": false,
+      "brand_logos_present": [],
+      "urgency_language_present": false,
+      "payment_request_present": false,
+      "otp_request_present": false,
+      "personal_info_request_present": false,
+      "forward_request_present": false,
+      "transcript": "",
+      "speaker_count": 0,
+      "language_detected": "",
+      "content_summary": "A clothing rack filled with various garments organized by color, ranging from blues and greens on the left to oranges, reds, and whites on the right. Above the rack, there are shelves with decorative items including a blue vase, a handbag, and a floral arrangement.",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_060": {
+    "status": "done",
+    "metadata": {
+      "media_type": "image",
+      "file_name": "img_012.jpg"
+    },
+    "result": {
+      "visible_text": "INDIAN INSTITUTE OF TECHNOLOGY BOMBAY\nINDUSTRIAL RESEARCH AND CONSULTANCY CENTER (IRCC)\n\nIIT BOMBAY RESEARCH INTERNSHIP 2023-24\n\nIndian Institute of Technology Bombay (IIT Bombay) offers opportunity for Research Internship to eligible students for early exposure of Research and Development (R&D) in Science, Technology and related emerging areas. This full-time research internship is awarded to bright students every academic year on challenging research projects to be floated by the IIT Bombay faculty. Selection of the Interns are done in response to the applications made by the prospecting candidates on the basis of their respective academic record and performance in the interview to be conducted by the respective faculty member of the Institute. The duration of the IRCC-IR-internship 2023-24 will be for a period between four to six months (from December 2023 and June 2024)\n\nEligibility:\nThe prospecting applicant is required to -\n- be in the Second year of his/her Master degree program, or third / fourth year of his/her Bachelor degree program.\n- submit application in accordance with his/her branch / discipline of study and in accordance with the project requirement specified by the IIT Bombay Faculty (Internship Guide).\n- be among the top 10% in all the previous years in his/her discipline in the College / University / Institute. A certificate from the principal (in the prescribed format) to this effect is required to be submitted along with the application.\n- a full-time student while applying and till the completion of the Internship programme. S/He may submit a partial project report before (e.g., in April) the completion of the Internship (e.g., in June) if the academic calendar of his/her College / Institute / University requires him/her to do so, with the due prior consent of the Internship Guide of IIT Bombay.\n- be able to work full-time for the Internship programme. Part-time internship is not allowed. A certificate from the principal to the effect that there is no course work requirement during the internship period has to be submitted at the time of application.\n\nDetailed information about the IRCC-IR-Internship programme is available on the Institute website - https://www.ircc.iitb.ac.in/IRCC-Webpage/IITBInternship/.\nFor any enquiry you may send e-mail to internship@ircc.iitb.ac.in\n\nWith best regards\nSr. Assistant Registrar, IRCC",
+      "detected_urls": [
+        "https://www.ircc.iitb.ac.in/IRCC-Webpage/IITBInternship/"
+      ],
+      "detected_qr_codes": false,
+      "brand_logos_present": [
+        "IIT Bombay",
+        "Indian Institute of Technology Bombay"
+      ],
+      "urgency_language_present": false,
+      "payment_request_present": false,
+      "otp_request_present": false,
+      "personal_info_request_present": false,
+      "forward_request_present": false,
+      "transcript": "",
+      "speaker_count": 0,
+      "language_detected": "English",
+      "content_summary": "An official informational flyer from the Indian Institute of Technology Bombay (IIT Bombay) outlining the eligibility criteria, duration, and application details for the Research Internship 2023-24 program.",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_030": {
+    "status": "done",
+    "metadata": {
+      "media_type": "image",
+      "file_name": "img_008.jpg"
+    },
+    "result": {
+      "visible_text": "",
+      "detected_urls": [],
+      "detected_qr_codes": false,
+      "brand_logos_present": [],
+      "urgency_language_present": false,
+      "payment_request_present": false,
+      "otp_request_present": false,
+      "personal_info_request_present": false,
+      "forward_request_present": false,
+      "transcript": "",
+      "speaker_count": 0,
+      "language_detected": "",
+      "content_summary": "A clothing rack filled with various colorful garments hanging on wooden hangers, arranged in a color gradient. Above the rack are shelves with decorative items including a blue vase, a handbag, and a floral arrangement.",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_065": {
+    "status": "done",
+    "metadata": {
+      "media_type": "image",
+      "file_name": "img_010.jpg"
+    },
+    "result": {
+      "visible_text": "amazon\nPrime Day\nUP TO 60% OFF\n2X CASHBACK\n24-30 JUNE\nUP TO 11.2%\nCASHBACK\nEXCLUSIVE ON\nSHOPCASH",
+      "detected_urls": [],
+      "detected_qr_codes": false,
+      "brand_logos_present": [
+        "amazon",
+        "SHOPCASH"
+      ],
+      "urgency_language_present": false,
+      "payment_request_present": false,
+      "otp_request_present": false,
+      "personal_info_request_present": false,
+      "forward_request_present": false,
+      "transcript": "",
+      "speaker_count": 0,
+      "language_detected": "en",
+      "content_summary": "A promotional banner on a blue background advertising Amazon Prime Day with up to 60% off and 2x cashback, alongside an exclusive ShopCash offer of up to 11.2% cashback valid from June 24 to June 30.",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_086": {
+    "status": "done",
+    "metadata": {
+      "media_type": "voice",
+      "file_name": "vn_009.mp3"
+    },
+    "result": {
+      "visible_text": "",
+      "detected_urls": [],
+      "detected_qr_codes": false,
+      "brand_logos_present": [],
+      "urgency_language_present": false,
+      "payment_request_present": false,
+      "otp_request_present": false,
+      "personal_info_request_present": false,
+      "forward_request_present": false,
+      "transcript": " Your airport pickup for tomorrow has moved to 6.15am. The driver and hotel booking remain the same.",
+      "speaker_count": 1,
+      "language_detected": "auto",
+      "content_summary": "Voice note transcription (17 words)",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_029": {
+    "status": "done",
+    "metadata": {
+      "media_type": "image",
+      "file_name": "img_008.jpg"
+    },
+    "result": {
+      "visible_text": "",
+      "detected_urls": [],
+      "detected_qr_codes": false,
+      "brand_logos_present": [],
+      "urgency_language_present": false,
+      "payment_request_present": false,
+      "otp_request_present": false,
+      "personal_info_request_present": false,
+      "forward_request_present": false,
+      "transcript": "",
+      "speaker_count": 0,
+      "language_detected": "",
+      "content_summary": "A clothing rack filled with various colorful garments hanging on wooden hangers, arranged in a color gradient. Above the rack are shelves with decorative items including a blue vase, a handbag, and a floral arrangement.",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_088": {
+    "status": "done",
+    "metadata": {
+      "media_type": "voice",
+      "file_name": "vn_012.mp3"
+    },
+    "result": {
+      "visible_text": "",
+      "detected_urls": [],
+      "detected_qr_codes": false,
+      "brand_logos_present": [],
+      "urgency_language_present": false,
+      "payment_request_present": false,
+      "otp_request_present": false,
+      "personal_info_request_present": false,
+      "forward_request_present": false,
+      "transcript": " I have kept the blue jacket aside for you. If you still want it, please confirm before I show it to someone else.",
+      "speaker_count": 1,
+      "language_detected": "auto",
+      "content_summary": "Voice note transcription (23 words)",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_027": {
+    "status": "done",
+    "metadata": {
+      "media_type": "image",
+      "file_name": "img_003.jpg"
+    },
+    "result": {
+      "visible_text": "Happy Holidayers TRAVEL. EXPLORE. ENJOY\nLADAKH\nTOUR PACKAGES\nEXPERIENCE THE MAGIC OF LADAKH\nUP TO 40% OFF\nSIGHTSEEING TRANSFERS MEALS STAY\nBOOK NOW >\n+91 98056 07657\n20K+ Travellers\n10K+ Hotels\n5K+ Tours\n06+ Offices\nwww.happyholidayers.com",
+      "detected_urls": [
+        "www.happyholidayers.com"
+      ],
+      "detected_qr_codes": false,
+      "brand_logos_present": [
+        "Happy Holidayers"
+      ],
+      "urgency_language_present": false,
+      "payment_request_present": false,
+      "otp_request_present": false,
+      "personal_info_request_present": false,
+      "forward_request_present": false,
+      "transcript": "",
+      "speaker_count": 0,
+      "language_detected": "English",
+      "content_summary": "A promotional travel advertisement poster for Ladakh tour packages by Happy Holidayers. The poster features a person sitting on rocks by a blue lake with mountains in the background, advertising up to 40% off, sightseeing, transfers, meals, and stay. It includes a phone number and website for booking.",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_083": {
+    "status": "done",
+    "metadata": {
+      "media_type": "voice",
+      "file_name": "vn_006.mp3"
+    },
+    "result": {
+      "visible_text": "",
+      "detected_urls": [],
+      "detected_qr_codes": false,
+      "brand_logos_present": [],
+      "urgency_language_present": true,
+      "payment_request_present": false,
+      "otp_request_present": false,
+      "personal_info_request_present": false,
+      "forward_request_present": false,
+      "transcript": " Can you check the onboarding dock tomorrow morning? Nothing urgent. I just want your comments before lunch.",
+      "speaker_count": 1,
+      "language_detected": "auto",
+      "content_summary": "Voice note transcription (17 words)",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_085": {
+    "status": "done",
+    "metadata": {
+      "media_type": "voice",
+      "file_name": "vn_008.mp3"
+    },
+    "result": {
+      "visible_text": "",
+      "detected_urls": [],
+      "detected_qr_codes": false,
+      "brand_logos_present": [],
+      "urgency_language_present": true,
+      "payment_request_present": true,
+      "otp_request_present": true,
+      "personal_info_request_present": false,
+      "forward_request_present": false,
+      "transcript": " Your bank account will be blocked today. Share the OTP you received so we can complete verification immediately.",
+      "speaker_count": 1,
+      "language_detected": "auto",
+      "content_summary": "Voice note transcription (18 words)",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_028": {
+    "status": "done",
+    "metadata": {
+      "media_type": "image",
+      "file_name": "img_003.jpg"
+    },
+    "result": {
+      "visible_text": "Happy Holidayers TRAVEL, EXPLORE, ENJOY\nLADAKH\nTOUR PACKAGES\nEXPERIENCE THE MAGIC OF LADAKH\nUP TO 40% OFF\nSIGHTSEEING TRANSFERS MEALS STAY\nBOOK NOW\n+91 98056 07657 | 20K+ Travellers | 10K+ Hotels | 5K+ Tours | 06+ Offices | www.happyholidayers.com",
+      "detected_urls": [
+        "www.happyholidayers.com"
+      ],
+      "detected_qr_codes": false,
+      "brand_logos_present": [
+        "Happy Holidayers"
+      ],
+      "urgency_language_present": false,
+      "payment_request_present": false,
+      "otp_request_present": false,
+      "personal_info_request_present": false,
+      "forward_request_present": false,
+      "transcript": "",
+      "speaker_count": 0,
+      "language_detected": "English",
+      "content_summary": "A promotional travel poster for Ladakh tour packages by Happy Holidayers. The image shows a person sitting on rocks by a scenic lake with mountains in the background. It advertises up to 40% off and lists inclusions like sightseeing, transfers, meals, and stay, along with contact details and a website.",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_064": {
+    "status": "done",
+    "metadata": {
+      "media_type": "image",
+      "file_name": "img_002.jpg"
+    },
+    "result": {
+      "visible_text": "WATCH THE BIGGEST CINEMATIC EPIC IN\n4DX | MX4D\nAT AN UNBEATABLE PRICE\nTICKETS NOW STARTING AT\n₹ 199\nONLY ON 21ST JUL'26\nA FILM BY CHRISTOPHER NOLAN\nTHE ODYSSEY\n17.07.26\nSHOT ENTIRELY WITH IMAX FILM CAMERAS\nPVR INOX\nFOR BOOKINGS VISIT PVR OR INOX WEBSITE / APP\n*OFFER APPLICABLE IN SELECT CITIES, CINEMAS & SHOWS. OTHER T&C APPLY.",
+      "detected_urls": [],
+      "detected_qr_codes": false,
+      "brand_logos_present": [
+        "4DX",
+        "MX4D",
+        "PVR INOX"
+      ],
+      "urgency_language_present": false,
+      "payment_request_present": false,
+      "otp_request_present": false,
+      "personal_info_request_present": false,
+      "forward_request_present": false,
+      "transcript": "",
+      "speaker_count": 0,
+      "language_detected": "English",
+      "content_summary": "A promotional poster advertising movie tickets for 'The Odyssey' starting at ₹199 for 4DX and MX4D formats at PVR INOX cinemas, valid only on July 21st, 2026.",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_031": {
+    "status": "done",
+    "metadata": {
+      "media_type": "image",
+      "file_name": "img_004.jpg"
+    },
+    "result": {
+      "visible_text": "Incident Review\nFriday, August 7 • 12:00 – 12:50pm\nTake meeting notes\nStart a new document to capture notes\n3 guests\n1 yes virtually\n2 awaiting\nShloka Shah\nOrganizer\nHome - Edit\nAkarsh Jain\nPawan K\nHome\n10 minutes before\nShloka Shah\nGoing? Yes No Maybe",
+      "detected_urls": [],
+      "detected_qr_codes": false,
+      "brand_logos_present": [],
+      "urgency_language_present": false,
+      "payment_request_present": false,
+      "otp_request_present": false,
+      "personal_info_request_present": false,
+      "forward_request_present": false,
+      "transcript": "",
+      "speaker_count": 0,
+      "language_detected": "English",
+      "content_summary": "A screenshot of a digital calendar event invitation titled 'Incident Review' scheduled for Friday, August 7, from 12:00 to 12:50 pm. The organizer is Shloka Shah, and the guests are Akarsh Jain and Pawan K. RSVP options 'Yes', 'No', and 'Maybe' are visible at the bottom.",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_087": {
+    "status": "done",
+    "metadata": {
+      "media_type": "voice",
+      "file_name": "vn_014.mp3"
+    },
+    "result": {
+      "visible_text": "",
+      "detected_urls": [],
+      "detected_qr_codes": false,
+      "brand_logos_present": [],
+      "urgency_language_present": false,
+      "payment_request_present": false,
+      "otp_request_present": false,
+      "personal_info_request_present": false,
+      "forward_request_present": false,
+      "transcript": " hospital and residential apartments. 1, 2, 3 and 4 BHK apartments starting 1 crore to 4 crore. Expression of interest has just started. Dial 1 if you're interested to know more, dial 2 to submit your EOI, dial 5 to repeat and dial 8 to stop receiving message and to unsubscribe. Thank you. Hi, I'm Sahana. Called you regards to a new launch by Brigade in Whitefield. Spread across massive 40 acres, which has commercial school, hospital, and residential apartments. 1, 2, 3, and 4 BHK apartments, starting 1 crore to 4 crore. Expression of interest has just started. Dial 1 if you're interested to know more. Dial 2 to submit your EOI. Dial 5 to repeat and dial 8 to stop receiving message and to unsubscribe.",
+      "speaker_count": 1,
+      "language_detected": "auto",
+      "content_summary": "Voice note transcription (127 words)",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_082": {
+    "status": "done",
+    "metadata": {
+      "media_type": "voice",
+      "file_name": "vn_005.mp3"
+    },
+    "result": {
+      "visible_text": "",
+      "detected_urls": [],
+      "detected_qr_codes": false,
+      "brand_logos_present": [],
+      "urgency_language_present": false,
+      "payment_request_present": true,
+      "otp_request_present": false,
+      "personal_info_request_present": false,
+      "forward_request_present": false,
+      "transcript": " Checkout error are spiking again. Please join the incident bridge now. Payments are failing for live users.",
+      "speaker_count": 1,
+      "language_detected": "auto",
+      "content_summary": "Voice note transcription (17 words)",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_066": {
+    "status": "done",
+    "metadata": {
+      "media_type": "image",
+      "file_name": "img_010.jpg"
+    },
+    "result": {
+      "visible_text": "amazon Prime Day UP TO 60% OFF 2X CASHBACK 24-30 JUNE UP TO 11.2% CASHBACK EXCLUSIVE ON SHOPCASH",
+      "detected_urls": [],
+      "detected_qr_codes": false,
+      "brand_logos_present": [
+        "amazon",
+        "SHOPCASH"
+      ],
+      "urgency_language_present": false,
+      "payment_request_present": false,
+      "otp_request_present": false,
+      "personal_info_request_present": false,
+      "forward_request_present": false,
+      "transcript": "",
+      "speaker_count": 0,
+      "language_detected": "English",
+      "content_summary": "An advertisement banner for Amazon Prime Day on a blue background, showing discounts up to 60% and 2X cashback, with an exclusive 11.2% cashback offer on ShopCash from June 24-30.",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_049": {
+    "status": "done",
+    "metadata": {
+      "media_type": "image",
+      "file_name": "img_007.jpg"
+    },
+    "result": {
+      "visible_text": "Jio Mart",
+      "detected_urls": [],
+      "detected_qr_codes": false,
+      "brand_logos_present": [
+        "Jio Mart"
+      ],
+      "urgency_language_present": false,
+      "payment_request_present": false,
+      "otp_request_present": false,
+      "personal_info_request_present": false,
+      "forward_request_present": false,
+      "transcript": "",
+      "speaker_count": 0,
+      "language_detected": "English",
+      "content_summary": "A brown paper shopping bag with the Jio Mart logo printed on it, sitting on a white table.",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_053": {
+    "status": "done",
+    "metadata": {
+      "media_type": "image",
+      "file_name": "img_024.jpg"
+    },
+    "result": {
+      "visible_text": "Nifty 50 - D - 1% - CMP: 15863.20(-2.35%) - 07-03-2022\nNifty 50, Spot, Daily\n1% Brick Size, Renko Chart\nPrice breaks the prior swing low which is a sign of bearishness. The negative crossover in the moving averages confirms short-term weakness\nDisparity (40,1,EMA,Close)DI:-5.36Avg:-5.36\n17879\n16804\n16021.26\n15730\n14656\n13581\n12507\n11432\n10358\n9284\n8209\n10.00\n5.00\n.00\n-5.36\n-10.00",
+      "detected_urls": [],
+      "detected_qr_codes": false,
+      "brand_logos_present": [],
+      "urgency_language_present": false,
+      "payment_request_present": false,
+      "otp_request_present": false,
+      "personal_info_request_present": false,
+      "forward_request_present": false,
+      "transcript": "",
+      "speaker_count": 0,
+      "language_detected": "English",
+      "content_summary": "A Renko chart of the Nifty 50 index showing daily price action with moving averages and a disparity indicator. Annotations on the chart point out a bearish signal where the price breaks below a prior swing low, accompanied by a negative crossover of the moving averages.",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_074": {
+    "status": "done",
+    "metadata": {
+      "media_type": "image",
+      "file_name": "img_025.jpg"
+    },
+    "result": {
+      "visible_text": "Ingoude Company LAND PLOT FOR SALE Secure your dream investment! Prime land plots available strategic location high value future growth Contact Us +123-456-7890 www.reallygreatsite.com",
+      "detected_urls": [
+        "www.reallygreatsite.com"
+      ],
+      "detected_qr_codes": false,
+      "brand_logos_present": [
+        "Ingoude Company"
+      ],
+      "urgency_language_present": false,
+      "payment_request_present": false,
+      "otp_request_present": false,
+      "personal_info_request_present": false,
+      "forward_request_present": false,
+      "transcript": "",
+      "speaker_count": 0,
+      "language_detected": "English",
+      "content_summary": "A promotional flyer for land plots for sale by Ingoude Company, featuring an aerial photograph of land parcels, contact details, and marketing bullet points.",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_062": {
+    "status": "done",
+    "metadata": {
+      "media_type": "image",
+      "file_name": "img_023.jpg"
+    },
+    "result": {
+      "visible_text": "MISSING PERSON\nMissing from:\n4-11-2025\nAGE: 16\nNAME:- MELWYN\nDoor number 9 first Amani first cross Kasturi Nagar East of NGEF\nLandmark Hyderabad Irani tea shop Plz help contacts:-\n7348978260 / 9686674558 / 9741011528\nMISSING PERSON",
+      "detected_urls": [],
+      "detected_qr_codes": false,
+      "brand_logos_present": [],
+      "urgency_language_present": true,
+      "payment_request_present": false,
+      "otp_request_present": false,
+      "personal_info_request_present": false,
+      "forward_request_present": false,
+      "transcript": "",
+      "speaker_count": 0,
+      "language_detected": "English",
+      "content_summary": "A printed poster seeking information on a missing 16-year-old person named Melwyn, including a photo, last known location details, and contact phone numbers.",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_077": {
+    "status": "done",
+    "metadata": {
+      "media_type": "image",
+      "file_name": "img_011.jpg"
+    },
+    "result": {
+      "visible_text": "FIELD TRIP CONSENT FORM\n\n_________________________________ has permission to participate in a planned field trip activity.\n\nTRIP DESTINATION: _________________________________ DATE: ____________________ 20___\nDEPARTURE TIME: _________________________________ RETURN TIME: ____________________\nTransportation will be provided by ____ school bus, ____ student.\n\n_________________________________ _________________________________\n(Signature of Parent/Guardian) (Date of Signature)\n\n_________________________________ _________________________________\n(Address) (Telephone Number)\n\nIn granting this permission, I assume full responsibility for any damage to person or property caused by my child or ward. Further, I hereby expressly waive any claim for liability against the Board of Education, Swartz Creek Community Schools, including its employees and representatives. I further expressly agree that in a disciplinary action, at the discretion of the sponsor(s), my child or ward may be returned home at my expense.\n\nFIELD TRIP CONSENT FORM\n\n_________________________________ has permission to participate in a planned field trip activity.\n\nTRIP DESTINATION: _________________________________ DATE: ____________________ 20___\nDEPARTURE TIME: _________________________________ RETURN TIME: ____________________\nTransportation will be provided by ____ school bus, ____ student.\n\n_________________________________ _________________________________\n(Signature of Parent/Guardian) (Date of Signature)\n\n_________________________________ _________________________________\n(Address) (Telephone Number)\n\nIn granting this permission, I assume full responsibility for any damage to person or property caused by my child or ward. Further, I hereby expressly waive any claim for liability against the Board of Education, Swartz Creek Community Schools, including its employees and representatives. I further expressly agree that in a disciplinary action, at the discretion of the sponsor(s), my child or ward may be returned home at my expense.",
+      "detected_urls": [],
+      "detected_qr_codes": false,
+      "brand_logos_present": [
+        "Swartz Creek Community Schools"
+      ],
+      "urgency_language_present": false,
+      "payment_request_present": false,
+      "otp_request_present": false,
+      "personal_info_request_present": true,
+      "forward_request_present": false,
+      "transcript": "",
+      "speaker_count": 0,
+      "language_detected": "English",
+      "content_summary": "A printed document containing two identical blank Field Trip Consent Forms for Swartz Creek Community Schools, separated by a horizontal line. The forms include fields for trip destination, date, departure/return times, transportation type, parent/guardian signature, date, address, and telephone number, along with a liability waiver statement.",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_081": {
+    "status": "done",
+    "metadata": {
+      "media_type": "voice",
+      "file_name": "vn_004.mp3"
+    },
+    "result": {
+      "visible_text": "",
+      "detected_urls": [],
+      "detected_qr_codes": false,
+      "brand_logos_present": [],
+      "urgency_language_present": false,
+      "payment_request_present": false,
+      "otp_request_present": false,
+      "personal_info_request_present": false,
+      "forward_request_present": false,
+      "transcript": " Hi, this is from School Transport. Today's pickup will be from gate 2 instead of the main gate. Please reach by 340.",
+      "speaker_count": 1,
+      "language_detected": "auto",
+      "content_summary": "Voice note transcription (22 words)",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_084": {
+    "status": "done",
+    "metadata": {
+      "media_type": "voice",
+      "file_name": "vn_007.mp3"
+    },
+    "result": {
+      "visible_text": "",
+      "detected_urls": [],
+      "detected_qr_codes": false,
+      "brand_logos_present": [],
+      "urgency_language_present": false,
+      "payment_request_present": false,
+      "otp_request_present": false,
+      "personal_info_request_present": false,
+      "forward_request_present": false,
+      "transcript": " cards in partnership with HDFC Bank and you're among the first to be invited. These cards offer up to 10% cash back on every Swiggy, Food and Instamart order. These cards also offer up to 24% off on travel. The best part, we are offering them to you free for lifetime to be the first to own the new Swiggy card. Press 1 now.",
+      "speaker_count": 1,
+      "language_detected": "auto",
+      "content_summary": "Voice note transcription (64 words)",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "sample_msg_041": {
+    "status": "done",
+    "metadata": {
+      "media_type": "voice",
+      "file_name": "vn_001.mp3"
+    },
+    "result": {
+      "visible_text": "",
+      "detected_urls": [],
+      "detected_qr_codes": false,
+      "brand_logos_present": [],
+      "urgency_language_present": true,
+      "payment_request_present": false,
+      "otp_request_present": false,
+      "personal_info_request_present": false,
+      "forward_request_present": false,
+      "transcript": " Had dinner. Call went free. Nothing urgent.",
+      "speaker_count": 1,
+      "language_detected": "auto",
+      "content_summary": "Voice note transcription (7 words)",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "sample_msg_042": {
+    "status": "done",
+    "metadata": {
+      "media_type": "voice",
+      "file_name": "vn_002.mp3"
+    },
+    "result": {
+      "visible_text": "",
+      "detected_urls": [],
+      "detected_qr_codes": false,
+      "brand_logos_present": [],
+      "urgency_language_present": false,
+      "payment_request_present": false,
+      "otp_request_present": false,
+      "personal_info_request_present": false,
+      "forward_request_present": false,
+      "transcript": " Please call now. Dad is unwell and we are going to the clinic.",
+      "speaker_count": 1,
+      "language_detected": "auto",
+      "content_summary": "Voice note transcription (13 words)",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "sample_msg_043": {
+    "status": "done",
+    "metadata": {
+      "media_type": "voice",
+      "file_name": "vn_003.mp3"
+    },
+    "result": {
+      "visible_text": "",
+      "detected_urls": [],
+      "detected_qr_codes": false,
+      "brand_logos_present": [],
+      "urgency_language_present": false,
+      "payment_request_present": false,
+      "otp_request_present": false,
+      "personal_info_request_present": false,
+      "forward_request_present": false,
+      "transcript": " Okay, I understand. I'll arrange a call back from our senior admission counselor who can help you out. Thank you. Sorry, I'm not able to hear you. Are we still online? It seems like you're busy at the moment. I'll call you back at another time. Good day.",
+      "speaker_count": 1,
+      "language_detected": "auto",
+      "content_summary": "Voice note transcription (48 words)",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "sample_msg_044": {
+    "status": "done",
+    "metadata": {
+      "media_type": "image",
+      "file_name": "img_008.jpg"
+    },
+    "result": {
+      "visible_text": "",
+      "detected_urls": [],
+      "detected_qr_codes": false,
+      "brand_logos_present": [],
+      "urgency_language_present": false,
+      "payment_request_present": false,
+      "otp_request_present": false,
+      "personal_info_request_present": false,
+      "forward_request_present": false,
+      "transcript": "",
+      "speaker_count": 0,
+      "language_detected": "",
+      "content_summary": "A clothing rack filled with various colorful garments hanging on wooden hangers, arranged in a color gradient from blues and greens to reds, oranges, and whites. Above the rack are small shelves displaying decorative items, including a blue vase, a handbag, and a floral arrangement.",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "sample_msg_045": {
+    "status": "done",
+    "metadata": {
+      "media_type": "image",
+      "file_name": "img_008.jpg"
+    },
+    "result": {
+      "visible_text": "",
+      "detected_urls": [],
+      "detected_qr_codes": false,
+      "brand_logos_present": [],
+      "urgency_language_present": false,
+      "payment_request_present": false,
+      "otp_request_present": false,
+      "personal_info_request_present": false,
+      "forward_request_present": false,
+      "transcript": "",
+      "speaker_count": 0,
+      "language_detected": "",
+      "content_summary": "A clothing rack filled with various colorful garments hanging on wooden hangers, arranged in a color gradient from blues and greens to reds, oranges, and whites. Above the rack are small shelves displaying decorative items, including a blue vase, a handbag, and a floral arrangement.",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "sample_msg_046": {
+    "status": "done",
+    "metadata": {
+      "media_type": "image",
+      "file_name": "img_011.jpg"
+    },
+    "result": {
+      "visible_text": "FIELD TRIP CONSENT FORM\n\n_________________________________ has permission to participate in a planned field trip activity.\n\nTRIP DESTINATION: _________________________________ DATE: _________________ 20___\nDEPARTURE TIME: _________________________________ RETURN TIME: _________________\nTransportation will be provided by ____ school bus, ____ student.\n\n_________________________________ (Signature of Parent/Guardian) _________________ (Date of Signature)\n_________________________________ (Address) _________________ (Telephone Number)\nIn granting this permission, I assume full responsibility for any damage to person or property caused by my child or ward. Further, I hereby expressly waive any claim for liability against the Board of Education, Swartz Creek Community Schools, including its employees and representatives. I further expressly agree that in a disciplinary action, at the discretion of the sponsor(s), my child or ward may be returned home at my expense.\n\n--------------------------------------------------------------------------------\n\nFIELD TRIP CONSENT FORM\n\n_________________________________ has permission to participate in a planned field trip activity.\n\nTRIP DESTINATION: _________________________________ DATE: _________________ 20___\nDEPARTURE TIME: _________________________________ RETURN TIME: _________________\nTransportation will be provided by ____ school bus, ____ student.\n\n_________________________________ (Signature of Parent/Guardian) _________________ (Date of Signature)\n_________________________________ (Address) _________________ (Telephone Number)\nIn granting this permission, I assume full responsibility for any damage to person or property caused by my child or ward. Further, I hereby expressly waive any claim for liability against the Board of Education, Swartz Creek Community Schools, including its employees and representatives. I further expressly agree that in a disciplinary action, at the discretion of the sponsor(s), my child or ward may be returned home at my expense.",
+      "detected_urls": [],
+      "detected_qr_codes": false,
+      "brand_logos_present": [
+        "Swartz Creek Community Schools"
+      ],
+      "urgency_language_present": false,
+      "payment_request_present": false,
+      "otp_request_present": false,
+      "personal_info_request_present": true,
+      "forward_request_present": false,
+      "transcript": "",
+      "speaker_count": 0,
+      "language_detected": "English",
+      "content_summary": "A printed document containing two identical copies of a Field Trip Consent Form for Swartz Creek Community Schools, separated by a horizontal line. The form requests details about a field trip and requires a parent/guardian signature, address, and telephone number.",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "sample_msg_047": {
+    "status": "done",
+    "metadata": {
+      "media_type": "image",
+      "file_name": "img_010.jpg"
+    },
+    "result": {
+      "visible_text": "Dry run extraction for img_010.jpg. Context: Reminder: your account has a shopping offer availa",
+      "detected_urls": [],
+      "detected_qr_codes": false,
+      "brand_logos_present": [],
+      "urgency_language_present": true,
+      "payment_request_present": false,
+      "otp_request_present": false,
+      "personal_info_request_present": false,
+      "forward_request_present": false,
+      "transcript": "",
+      "speaker_count": 1,
+      "language_detected": "English",
+      "content_summary": "Observation of image file img_010.jpg",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "sample_msg_048": {
+    "status": "done",
+    "metadata": {
+      "media_type": "image",
+      "file_name": "img_026.jpg"
+    },
+    "result": {
+      "visible_text": "Dry run extraction for img_026.jpg. Context: Dear Customer,\n\nSafety advisory image attached. Th",
+      "detected_urls": [],
+      "detected_qr_codes": false,
+      "brand_logos_present": [],
+      "urgency_language_present": false,
+      "payment_request_present": true,
+      "otp_request_present": true,
+      "personal_info_request_present": false,
+      "forward_request_present": false,
+      "transcript": "",
+      "speaker_count": 1,
+      "language_detected": "English",
+      "content_summary": "Observation of image file img_026.jpg",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  }
+}

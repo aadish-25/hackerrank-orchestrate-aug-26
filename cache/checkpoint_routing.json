@@ -1,0 +1,1432 @@
+{
+  "msg_023": {
+    "status": "done",
+    "result": {
+      "message_id": "msg_023",
+      "action": "digest",
+      "message_type": "payment",
+      "reason": "The message from verified sender HDFC Bank informs the user about an account or card payment update. Since there is no immediate time-sensitive deadline, it is routed as a digest.",
+      "confidence": "0.84",
+      "evidence_message_ids": "message_0243;message_0102;message_0101",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_091": {
+    "status": "done",
+    "result": {
+      "message_id": "msg_091",
+      "action": "mute",
+      "message_type": "scam",
+      "reason": "The message is a credential phishing attempt requesting a 6-digit login code under the threat of account expiration, which is classified as a scam and must be muted.",
+      "confidence": "0.76",
+      "evidence_message_ids": "none",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_090": {
+    "status": "done",
+    "result": {
+      "message_id": "msg_090",
+      "action": "digest",
+      "message_type": "personal",
+      "reason": "The message is a non-urgent personal inquiry regarding a package mix-up, explicitly stating 'No urgency'. Since it does not require immediate attention, it is routed to digest.",
+      "confidence": "0.76",
+      "evidence_message_ids": "none",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_048": {
+    "status": "done",
+    "result": {
+      "message_id": "msg_048",
+      "action": "mute",
+      "message_type": "scam",
+      "reason": "The message uses high-pressure tactics threatening access card suspension ('blocked tomorrow morning') to solicit immediate payment via QR code, which is classified as a scam and must be muted.",
+      "confidence": "0.76",
+      "evidence_message_ids": "message_0150;message_0149",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_040": {
+    "status": "done",
+    "result": {
+      "message_id": "msg_040",
+      "action": "mute",
+      "message_type": "forward",
+      "reason": "The message is a viral chain letter/forward asking the user to share it with ten people for blessings, which matches the criteria for muting.",
+      "confidence": "0.7",
+      "evidence_message_ids": "message_0136;message_0135",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_075": {
+    "status": "done",
+    "result": {
+      "message_id": "msg_075",
+      "action": "notify",
+      "message_type": "business_update",
+      "reason": "The message is a time-sensitive same-day operational update regarding a ride status change from Grab. Historical evidence (message_0206, message_0205) shows the user actively interacts with these updates, so immediate notification is appropriate.",
+      "confidence": "0.84",
+      "evidence_message_ids": "message_0206;message_0205",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_005": {
+    "status": "done",
+    "result": {
+      "message_id": "msg_005",
+      "action": "notify",
+      "message_type": "personal",
+      "reason": "The message contains an immediate, time-sensitive deadline to collect a held item by 6 PM today (within 1.5 hours of the message time). Historical evidence shows the user actively engages with and replies to these marketplace coordination messages, making an immediate notification necessary.",
+      "confidence": "0.7",
+      "evidence_message_ids": "message_0231;message_0390;message_0065",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_104": {
+    "status": "done",
+    "result": {
+      "message_id": "msg_104",
+      "action": "notify",
+      "message_type": "personal",
+      "reason": "The message contains a time-sensitive request to collect a personal item by 6 PM today, requiring immediate awareness and response.",
+      "confidence": "0.76",
+      "evidence_message_ids": "none",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_069": {
+    "status": "done",
+    "result": {
+      "message_id": "msg_069",
+      "action": "mute",
+      "message_type": "forward",
+      "reason": "The message is a viral chain forward with a high forward count of 11, asking to be shared across groups. The user has historically dismissed similar morning chain messages, and the Mehra Family group is already muted.",
+      "confidence": "0.7",
+      "evidence_message_ids": "message_0080;message_0177;message_0194",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_107": {
+    "status": "done",
+    "result": {
+      "message_id": "msg_107",
+      "action": "mute",
+      "message_type": "scam",
+      "reason": "Gate Override: System prompt injection attempt detected.",
+      "confidence": "0.92",
+      "evidence_message_ids": "message_0174;message_0173",
+      "potential_prompt_injection": true,
+      "injection_confidence": 0.95
+    }
+  },
+  "msg_070": {
+    "status": "done",
+    "result": {
+      "message_id": "msg_070",
+      "action": "mute",
+      "message_type": "scam",
+      "reason": "The message uses high-pressure tactics threatening account suspension ('warna account block ho jayega') and requests verification code confirmation via a link, which is characteristic of a credential phishing scam. Under Rule 3, this must be muted.",
+      "confidence": "0.7",
+      "evidence_message_ids": "message_0213;message_0199;message_0196",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_003": {
+    "status": "done",
+    "result": {
+      "message_id": "msg_003",
+      "action": "digest",
+      "message_type": "business_update",
+      "reason": "The message is an intermediate order status update ('expected to reach the local hub today') from a verified business. While the user has historically opened similar updates, it does not require immediate action or same-day doorstep delivery attention, making it suitable for a digest.",
+      "confidence": "0.84",
+      "evidence_message_ids": "message_0400;message_0031;message_0267",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_099": {
+    "status": "done",
+    "result": {
+      "message_id": "msg_099",
+      "action": "digest",
+      "message_type": "personal",
+      "reason": "The sender explicitly mentions that there is nothing blocking for tonight and the notes can be read before the 11 AM standup tomorrow, indicating it is not urgent and does not require immediate interruption.",
+      "confidence": "0.76",
+      "evidence_message_ids": "message_0118;message_0055;message_0228",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_008": {
+    "status": "done",
+    "result": {
+      "message_id": "msg_008",
+      "action": "digest",
+      "message_type": "business_update",
+      "reason": "The message is a non-urgent post-purchase review request from a verified business (Hoop) that the user has opted into. Since it lacks immediate time-sensitivity, it is routed to digest.",
+      "confidence": "0.9",
+      "evidence_message_ids": "message_0296;message_0071;message_0072",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_092": {
+    "status": "done",
+    "result": {
+      "message_id": "msg_092",
+      "action": "digest",
+      "message_type": "payment",
+      "reason": "The monthly card statement from verified sender American Express does not contain an immediate time-sensitive deadline and can be reviewed 'whenever convenient', making it suitable for the digest.",
+      "confidence": "0.77",
+      "evidence_message_ids": "none",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_060": {
+    "status": "done",
+    "result": {
+      "message_id": "msg_060",
+      "action": "notify",
+      "message_type": "event",
+      "reason": "The message is an urgent deadline reminder from Faculty Advising regarding internship approval forms closing today. Historical evidence (message_0284 and message_0404) shows the user consistently opens and replies to these faculty updates, warranting immediate notification.",
+      "confidence": "0.76",
+      "evidence_message_ids": "message_0175;message_0404;message_0284",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_004": {
+    "status": "done",
+    "result": {
+      "message_id": "msg_004",
+      "action": "digest",
+      "message_type": "business_update",
+      "reason": "The message is a health-related update from Apollo 24|7 regarding an appointment, prescription, or claim. While historical evidence shows high user engagement with these notifications, the message lacks an explicit same-day deadline or urgent time-sensitive constraint, making it suitable for the digest.",
+      "confidence": "0.84",
+      "evidence_message_ids": "message_0064;message_0245;message_0063",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_030": {
+    "status": "done",
+    "result": {
+      "message_id": "msg_030",
+      "action": "digest",
+      "message_type": "promotion",
+      "reason": "The message is a peer-to-peer product sale post in a marketplace group that the user has muted. Since it is non-urgent and the user is not mentioned, it is routed to the digest.",
+      "confidence": "0.7",
+      "evidence_message_ids": "message_0025;message_0232;message_0050",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_045": {
+    "status": "done",
+    "result": {
+      "message_id": "msg_045",
+      "action": "notify",
+      "message_type": "urgent",
+      "reason": "The message contains an immediate, highly time-sensitive request requiring action within 10 minutes to confirm a delivery at the gate, which warrants an immediate notification.",
+      "confidence": "0.7",
+      "evidence_message_ids": "message_0146;message_0145",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_052": {
+    "status": "done",
+    "result": {
+      "message_id": "msg_052",
+      "action": "mute",
+      "message_type": "scam",
+      "reason": "Gate Override: Sender domain is newly registered or mismatched with official brand domain.",
+      "confidence": "0.92",
+      "evidence_message_ids": "message_0159;message_0207;message_0208",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_009": {
+    "status": "done",
+    "result": {
+      "message_id": "msg_009",
+      "action": "digest",
+      "message_type": "personal",
+      "reason": "The message is a casual social update about watching cricket highlights tonight in the 'Match Night Crew' group. Since it is non-urgent, does not mention the user, and the group is muted by the user, it is routed to the digest.",
+      "confidence": "0.7",
+      "evidence_message_ids": "none",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_071": {
+    "status": "done",
+    "result": {
+      "message_id": "msg_071",
+      "action": "digest",
+      "message_type": "event",
+      "reason": "The message discusses a tentative plan to meet tomorrow ('Kal milte hain') for dinner or a doctor visit, with details to be confirmed later. Since it is not a same-day urgent update or immediate deadline, it is routed to digest.",
+      "confidence": "0.7",
+      "evidence_message_ids": "message_0197;message_0198",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_016": {
+    "status": "done",
+    "result": {
+      "message_id": "msg_016",
+      "action": "mute",
+      "message_type": "scam",
+      "reason": "The message is a phishing scam threatening account suspension and directing the user to a suspicious external link ('account-login.in') for verification, which must be muted.",
+      "confidence": "0.7",
+      "evidence_message_ids": "none",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_065": {
+    "status": "done",
+    "result": {
+      "message_id": "msg_065",
+      "action": "digest",
+      "message_type": "promotion",
+      "reason": "The message is a promotional offer from Target, a verified business that the user has opted into. Historical evidence shows the user regularly opens these messages. Since it is a non-urgent marketing announcement, it is routed to the digest.",
+      "confidence": "0.9",
+      "evidence_message_ids": "message_0185;message_0186;message_0261",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_038": {
+    "status": "done",
+    "result": {
+      "message_id": "msg_038",
+      "action": "mute",
+      "message_type": "spam",
+      "reason": "The message is a viral chain letter requesting the user to forward it to 10 people for good luck. According to the rules, viral chain letters should be muted as spam. Historical evidence (message_0131, message_0132) also shows the user consistently dismisses similar forwarded chain messages.",
+      "confidence": "0.7",
+      "evidence_message_ids": "message_0131;message_0132",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_086": {
+    "status": "done",
+    "result": {
+      "message_id": "msg_086",
+      "action": "notify",
+      "message_type": "event",
+      "reason": "The voice note from verified business Thrillophilia contains a time-sensitive transport schedule shift, informing the user that their airport pickup for tomorrow has been moved to 6:15 AM. This requires immediate awareness, so it is routed as 'notify' and classified as 'event'.",
+      "confidence": "0.84",
+      "evidence_message_ids": "message_0222",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_014": {
+    "status": "done",
+    "result": {
+      "message_id": "msg_014",
+      "action": "mute",
+      "message_type": "promotion",
+      "reason": "Gate Override: User has explicitly opted out of marketing promotions from this sender.",
+      "confidence": "0.92",
+      "evidence_message_ids": "none",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_094": {
+    "status": "done",
+    "result": {
+      "message_id": "msg_094",
+      "action": "mute",
+      "message_type": "promotion",
+      "reason": "The message is a promotional marketing offer from Nykaa. Since there is no explicit user opt-in recorded, it is classified as an unrequested promotional message and muted.",
+      "confidence": "0.77",
+      "evidence_message_ids": "none",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_029": {
+    "status": "done",
+    "result": {
+      "message_id": "msg_029",
+      "action": "mute",
+      "message_type": "forward",
+      "reason": "Gate Override: Viral forwarded message (forwarded_count=8).",
+      "confidence": "0.92",
+      "evidence_message_ids": "message_0095;message_0096",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_105": {
+    "status": "done",
+    "result": {
+      "message_id": "msg_105",
+      "action": "mute",
+      "message_type": "forward",
+      "reason": "The message is a highly forwarded viral health tip containing potentially unsafe medical advice. Historical evidence shows the user has consistently dismissed identical forwarded health tips in the past (message_0373, message_0233).",
+      "confidence": "0.76",
+      "evidence_message_ids": "message_0373;message_0233",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_002": {
+    "status": "done",
+    "result": {
+      "message_id": "msg_002",
+      "action": "notify",
+      "message_type": "urgent",
+      "reason": "The message is a highly time-sensitive request from a co-worker asking the user (@u_010) for a quick call before an upcoming client meeting to discuss a refund edge case. Because it requires immediate attention and the user is directly mentioned, it is routed as notify.",
+      "confidence": "0.76",
+      "evidence_message_ids": "message_0003;message_0060;message_0170",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_010": {
+    "status": "done",
+    "result": {
+      "message_id": "msg_010",
+      "action": "digest",
+      "message_type": "business_update",
+      "reason": "The message is a non-urgent feedback request from a verified business (PVRINOX Cinemas). Historical evidence shows the user consistently opens these messages, but since it lacks immediate urgency, it is routed to digest.",
+      "confidence": "0.84",
+      "evidence_message_ids": "message_0011;message_0076;message_0075",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_078": {
+    "status": "done",
+    "result": {
+      "message_id": "msg_078",
+      "action": "mute",
+      "message_type": "scam",
+      "reason": "The message requests sensitive bank details urgently under the guise of a pending benefit approval in a muted marketplace group, which is a clear indicator of a phishing scam.",
+      "confidence": "0.7",
+      "evidence_message_ids": "message_0211;message_0212",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_013": {
+    "status": "done",
+    "result": {
+      "message_id": "msg_013",
+      "action": "mute",
+      "message_type": "promotion",
+      "reason": "The message is an unsolicited promotional advertisement for a recliner, which is completely irrelevant to the University of Toronto Faculty Advising group context.",
+      "confidence": "0.7",
+      "evidence_message_ids": "none",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_018": {
+    "status": "done",
+    "result": {
+      "message_id": "msg_018",
+      "action": "mute",
+      "message_type": "scam",
+      "reason": "The message is a fraudulent reward claim ('Congrats, your number was selected for reward') sent to a group and forwarded 9 times. It uses high-pressure tactics ('Claim today before voucher expires') typical of scams, and similar past messages like message_0026 were dismissed by the user.",
+      "confidence": "0.7",
+      "evidence_message_ids": "message_0092;message_0091;message_0026",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_044": {
+    "status": "done",
+    "result": {
+      "message_id": "msg_044",
+      "action": "mute",
+      "message_type": "scam",
+      "reason": "The message uses high-pressure tactics threatening account restriction to solicit OTP verification and link clicks, which is characteristic of a credential phishing scam. According to the rules, such messages must be muted.",
+      "confidence": "0.7",
+      "evidence_message_ids": "message_0036",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_032": {
+    "status": "done",
+    "result": {
+      "message_id": "msg_032",
+      "action": "digest",
+      "message_type": "personal",
+      "reason": "The message is a non-urgent request for lecture slides in a student group chat ('No rush'). Since it lacks immediate time-sensitive deadlines or critical updates, it is routed to the digest.",
+      "confidence": "0.7",
+      "evidence_message_ids": "message_0120;message_0374;message_0119",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_106": {
+    "status": "done",
+    "result": {
+      "message_id": "msg_106",
+      "action": "notify",
+      "message_type": "event",
+      "reason": "The message contains a same-day operational update regarding a dance practice event today, including critical entry instructions before 7:15 PM. Historical evidence shows the user consistently opens and replies to these dance practice updates.",
+      "confidence": "0.76",
+      "evidence_message_ids": "message_0376;message_0234;message_0377",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_006": {
+    "status": "done",
+    "result": {
+      "message_id": "msg_006",
+      "action": "digest",
+      "message_type": "business_update",
+      "reason": "The message is an administrative update from the Green Acres Society group regarding maintenance reconciliation. Since it was sent at 18:38, after the 5 PM deadline, it does not require immediate action and is best suited for the daily digest.",
+      "confidence": "0.76",
+      "evidence_message_ids": "message_0029;message_0129;message_0215",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_109": {
+    "status": "done",
+    "result": {
+      "message_id": "msg_109",
+      "action": "mute",
+      "message_type": "scam",
+      "reason": "Gate Override: System prompt injection attempt detected.",
+      "confidence": "0.92",
+      "evidence_message_ids": "message_0237;message_0151;message_0152",
+      "potential_prompt_injection": true,
+      "injection_confidence": 0.95
+    }
+  },
+  "msg_108": {
+    "status": "done",
+    "result": {
+      "message_id": "msg_108",
+      "action": "mute",
+      "message_type": "scam",
+      "reason": "Gate Override: System prompt injection attempt detected.",
+      "confidence": "0.92",
+      "evidence_message_ids": "message_0094;message_0236;message_0093",
+      "potential_prompt_injection": true,
+      "injection_confidence": 0.95
+    }
+  },
+  "msg_019": {
+    "status": "done",
+    "result": {
+      "message_id": "msg_019",
+      "action": "mute",
+      "message_type": "scam",
+      "reason": "Gate Override: Sender domain is newly registered or mismatched with official brand domain.",
+      "confidence": "0.92",
+      "evidence_message_ids": "message_0094;message_0236;message_0093",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_088": {
+    "status": "done",
+    "result": {
+      "message_id": "msg_088",
+      "action": "digest",
+      "message_type": "personal",
+      "reason": "The message is a voice note regarding a marketplace item held for the user. Since the group 'Myntra Marketplace' is muted by the user and the message is not an immediate emergency, it is routed to digest.",
+      "confidence": "0.7",
+      "evidence_message_ids": "message_0025;message_0232;message_0050",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_056": {
+    "status": "done",
+    "result": {
+      "message_id": "msg_056",
+      "action": "notify",
+      "message_type": "event",
+      "reason": "The message is a same-day operational update regarding a rescheduled doctor's appointment at 6 PM today, requiring immediate confirmation from the mentioned user (@u_001) to decide on rescheduling.",
+      "confidence": "0.7",
+      "evidence_message_ids": "message_0123;message_0241;message_0078",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_027": {
+    "status": "done",
+    "result": {
+      "message_id": "msg_027",
+      "action": "digest",
+      "message_type": "promotion",
+      "reason": "The message is a promotional travel offer from Thrillophilia. Since the user has opted in and historically opened similar messages, it is not classified as spam, but because it lacks any immediate urgency, it is routed to digest.",
+      "confidence": "0.84",
+      "evidence_message_ids": "message_0272;message_0033;message_0007",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_050": {
+    "status": "done",
+    "result": {
+      "message_id": "msg_050",
+      "action": "notify",
+      "message_type": "business_update",
+      "reason": "The message contains a time-sensitive health update regarding an appointment or prescription pickup that needs to be reviewed before a scheduled time. Historical evidence shows the user has actively engaged with and replied to identical notifications from this sender in the past.",
+      "confidence": "0.77",
+      "evidence_message_ids": "message_0155;message_0279;message_0156",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_083": {
+    "status": "done",
+    "result": {
+      "message_id": "msg_083",
+      "action": "digest",
+      "message_type": "business_update",
+      "reason": "The voice note in the coworker group explicitly states 'Nothing urgent' and asks for a review tomorrow morning, making it suitable for the digest rather than immediate notification.",
+      "confidence": "0.76",
+      "evidence_message_ids": "message_0219",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_063": {
+    "status": "done",
+    "result": {
+      "message_id": "msg_063",
+      "action": "mute",
+      "message_type": "scam",
+      "reason": "The message uses high-pressure tactics threatening account lock and requesting payment via QR code in an unrelated group ('Local Food Finds'), which is characteristic of a scam.",
+      "confidence": "0.7",
+      "evidence_message_ids": "none",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_033": {
+    "status": "done",
+    "result": {
+      "message_id": "msg_033",
+      "action": "digest",
+      "message_type": "personal",
+      "reason": "The message is a casual, non-urgent personal check-in and greeting from a family member ('nothing urgent', 'check if you reached office safely'). According to the guidelines, non-urgent personal status check-ins should be routed to digest.",
+      "confidence": "0.7",
+      "evidence_message_ids": "message_0393;message_0372;message_0409",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_061": {
+    "status": "done",
+    "result": {
+      "message_id": "msg_061",
+      "action": "mute",
+      "message_type": "forward",
+      "reason": "The message is a viral chain letter ('Share this blessing with 10 people') with a high forward count of 8. Historical evidence shows the user consistently dismisses similar forward/greeting messages, and the Mehra Family group is already muted by the user.",
+      "confidence": "0.7",
+      "evidence_message_ids": "message_0080;message_0177;message_0194",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_020": {
+    "status": "done",
+    "result": {
+      "message_id": "msg_020",
+      "action": "mute",
+      "message_type": "scam",
+      "reason": "The message contains a suspicious shortened link (bit.ly/verify-quick) requesting an urgent account check in a marketplace group, which is characteristic of a phishing scam.",
+      "confidence": "0.7",
+      "evidence_message_ids": "message_0390;message_0065;message_0066",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_017": {
+    "status": "done",
+    "result": {
+      "message_id": "msg_017",
+      "action": "mute",
+      "message_type": "scam",
+      "reason": "The message uses high-pressure tactics threatening service suspension ('Service stops today') to demand immediate payment, which is characteristic of a scam. Additionally, the group is already muted by the user.",
+      "confidence": "0.7",
+      "evidence_message_ids": "message_0090;message_0089",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_058": {
+    "status": "done",
+    "result": {
+      "message_id": "msg_058",
+      "action": "mute",
+      "message_type": "forward",
+      "reason": "The message is a viral chain forward containing unverified health advice. The user has historically dismissed similar messages and has muted this family group, so this message is muted.",
+      "confidence": "0.7",
+      "evidence_message_ids": "message_0123;message_0241;message_0078",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_026": {
+    "status": "done",
+    "result": {
+      "message_id": "msg_026",
+      "action": "mute",
+      "message_type": "scam",
+      "reason": "Gate Override: Sender domain is newly registered or mismatched with official brand domain.",
+      "confidence": "0.92",
+      "evidence_message_ids": "message_0107;message_0108;message_0032",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_047": {
+    "status": "done",
+    "result": {
+      "message_id": "msg_047",
+      "action": "notify",
+      "message_type": "business_update",
+      "reason": "The message is a same-day operational update regarding lift maintenance starting at 4 PM today. This requires immediate awareness so the resident knows to use the service lift. The message is received outside the DND window (06:44), and historical evidence shows the user consistently opens and replies to society maintenance updates.",
+      "confidence": "0.76",
+      "evidence_message_ids": "message_0029;message_0129;message_0215",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_046": {
+    "status": "done",
+    "result": {
+      "message_id": "msg_046",
+      "action": "mute",
+      "message_type": "scam",
+      "reason": "The message requests sharing an OTP under threat of account closure, which is a classic credential phishing scam tactic. According to the rules, such messages must be muted.",
+      "confidence": "0.7",
+      "evidence_message_ids": "none",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_042": {
+    "status": "done",
+    "result": {
+      "message_id": "msg_042",
+      "action": "notify",
+      "message_type": "urgent",
+      "reason": "The message is a highly time-sensitive security alert from the Society Maintenance Desk requiring immediate action (moving cars within 10 minutes to avoid towing). Historical evidence shows the user consistently engages with society maintenance and security notices.",
+      "confidence": "0.76",
+      "evidence_message_ids": "message_0057;message_0058;message_0240",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_079": {
+    "status": "done",
+    "result": {
+      "message_id": "msg_079",
+      "action": "mute",
+      "message_type": "scam",
+      "reason": "The message is a phishing attempt requesting an OTP under threat of account suspension ('Account block ho jayega, OTP abhi batao'), which is classified as a scam and must be muted.",
+      "confidence": "0.7",
+      "evidence_message_ids": "message_0213;message_0199;message_0196",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_098": {
+    "status": "done",
+    "result": {
+      "message_id": "msg_098",
+      "action": "notify",
+      "message_type": "personal",
+      "reason": "The message is highly time-sensitive, requiring an immediate decision regarding a clinic appointment. Historical evidence shows the user previously engaged with clinic-related updates.",
+      "confidence": "0.76",
+      "evidence_message_ids": "message_0359;message_0168;message_0226",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_037": {
+    "status": "done",
+    "result": {
+      "message_id": "msg_037",
+      "action": "notify",
+      "message_type": "urgent",
+      "reason": "The message is highly time-sensitive, informing residents that the water tanker has arrived and will leave in 10 minutes. This requires immediate action, so it is classified as urgent and routed as notify.",
+      "confidence": "0.76",
+      "evidence_message_ids": "message_0029;message_0129;message_0215",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_007": {
+    "status": "done",
+    "result": {
+      "message_id": "msg_007",
+      "action": "digest",
+      "message_type": "event",
+      "reason": "The message is an update about a society potluck with registrations open until next Sunday. Since it is a non-urgent community event announcement with a deadline several days away, it is routed to digest.",
+      "confidence": "0.76",
+      "evidence_message_ids": "message_0070;message_0069",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_085": {
+    "status": "done",
+    "result": {
+      "message_id": "msg_085",
+      "action": "mute",
+      "message_type": "scam",
+      "reason": "Gate Override: Sender domain is newly registered or mismatched with official brand domain.",
+      "confidence": "0.92",
+      "evidence_message_ids": "none",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_001": {
+    "status": "done",
+    "result": {
+      "message_id": "msg_001",
+      "action": "notify",
+      "message_type": "urgent",
+      "reason": "The message is a highly time-sensitive utility update ('tanker is leaving in 20 mins', 'fill drinking water now') directly affecting Tower B. Historical evidence shows the user consistently opens and replies to Tower B water-related notices, warranting immediate notification.",
+      "confidence": "0.76",
+      "evidence_message_ids": "message_0057;message_0058;message_0240",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_021": {
+    "status": "done",
+    "result": {
+      "message_id": "msg_021",
+      "action": "notify",
+      "message_type": "payment",
+      "reason": "The message is a time-sensitive payment reminder ('due today') from the Green Acres Society Notices group, which qualifies for immediate notification.",
+      "confidence": "0.76",
+      "evidence_message_ids": "message_0029;message_0129;message_0215",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_028": {
+    "status": "done",
+    "result": {
+      "message_id": "msg_028",
+      "action": "mute",
+      "message_type": "promotion",
+      "reason": "Gate Override: User has explicitly opted out of marketing promotions from this sender.",
+      "confidence": "0.92",
+      "evidence_message_ids": "none",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_012": {
+    "status": "done",
+    "result": {
+      "message_id": "msg_012",
+      "action": "mute",
+      "message_type": "forward",
+      "reason": "The message is a viral chain forward ('Fwd as received') with a high forward count. Historical evidence shows the user consistently dismisses similar forwards (e.g., msg_0194), so it is muted.",
+      "confidence": "0.7",
+      "evidence_message_ids": "message_0080;message_0177;message_0194",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_064": {
+    "status": "done",
+    "result": {
+      "message_id": "msg_064",
+      "action": "mute",
+      "message_type": "scam",
+      "reason": "The message uses high-pressure tactics demanding verification of wallet and card details before midnight, which is a typical phishing/scam indicator, especially within a public marketplace group.",
+      "confidence": "0.7",
+      "evidence_message_ids": "none",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_103": {
+    "status": "done",
+    "result": {
+      "message_id": "msg_103",
+      "action": "notify",
+      "message_type": "personal",
+      "reason": "The message contains a time-sensitive deadline to collect a denim jacket by 6 PM today, with other buyers waiting. This requires immediate action, and historical evidence (message_0065) shows the user was previously coordinating this pickup.",
+      "confidence": "0.76",
+      "evidence_message_ids": "message_0231;message_0390;message_0065",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_031": {
+    "status": "done",
+    "result": {
+      "message_id": "msg_031",
+      "action": "notify",
+      "message_type": "event",
+      "reason": "The message contains an urgent, same-day operational update regarding a '7 PM sync' and action items that must be closed tonight to avoid a messy morning. Given the time-sensitive nature of the deployment notes and incident summary, and the user's history of active engagement with release and production issues, this requires immediate notification.",
+      "confidence": "0.76",
+      "evidence_message_ids": "message_0118;message_0055;message_0228",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_057": {
+    "status": "done",
+    "result": {
+      "message_id": "msg_057",
+      "action": "notify",
+      "message_type": "urgent",
+      "reason": "The user is directly mentioned in a coworker group regarding a failing build that requires immediate attention before updating a client thread, making it a highly time-sensitive operational issue.",
+      "confidence": "0.76",
+      "evidence_message_ids": "message_0003;message_0060;message_0170",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_087": {
+    "status": "done",
+    "result": {
+      "message_id": "msg_087",
+      "action": "mute",
+      "message_type": "promotion",
+      "reason": "The incoming voice note is an unsolicited promotional advertisement for a new real estate launch. Since the user has already muted this group ('Land and Plot Leads') and the content is unrequested marketing, it is classified as a promotion and muted.",
+      "confidence": "0.7",
+      "evidence_message_ids": "message_0164;message_0163;message_0389",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_067": {
+    "status": "done",
+    "result": {
+      "message_id": "msg_067",
+      "action": "notify",
+      "message_type": "payment",
+      "reason": "The message is a highly time-sensitive reminder for a maintenance payment due by 5:00 PM today (sent at 4:44 PM, leaving only 16 minutes) to avoid a late fee, which qualifies for immediate notification.",
+      "confidence": "0.76",
+      "evidence_message_ids": "message_0029;message_0129;message_0215",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_039": {
+    "status": "done",
+    "result": {
+      "message_id": "msg_039",
+      "action": "notify",
+      "message_type": "payment",
+      "reason": "The message is a highly time-sensitive payment request ('send the fee receipt today') directly mentioning the user (@u_006) regarding their child's field-trip status. Since it is outside the DND window and requires immediate action today, it is routed as a notification.",
+      "confidence": "0.76",
+      "evidence_message_ids": "message_0209;message_0133;message_0051",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_082": {
+    "status": "done",
+    "result": {
+      "message_id": "msg_082",
+      "action": "notify",
+      "message_type": "urgent",
+      "reason": "The voice note transcript reports that checkout errors are spiking and payments are failing, requiring immediate action to join the incident bridge. This is a critical same-day operational update.",
+      "confidence": "0.76",
+      "evidence_message_ids": "message_0218;message_0380;message_0397",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_066": {
+    "status": "done",
+    "result": {
+      "message_id": "msg_066",
+      "action": "mute",
+      "message_type": "promotion",
+      "reason": "Gate Override: User has explicitly opted out of marketing promotions from this sender.",
+      "confidence": "0.92",
+      "evidence_message_ids": "none",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_049": {
+    "status": "done",
+    "result": {
+      "message_id": "msg_049",
+      "action": "notify",
+      "message_type": "event",
+      "reason": "The message is a time-sensitive operational update regarding a Shopee return pickup scheduled for today between 2:00 PM and 5:00 PM. Since the message was received at 11:56 AM, it requires immediate user awareness to prepare the package, aligning with historical interactions for similar pickup events.",
+      "confidence": "0.9",
+      "evidence_message_ids": "message_0153;message_0291;message_0154",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_015": {
+    "status": "done",
+    "result": {
+      "message_id": "msg_015",
+      "action": "mute",
+      "message_type": "scam",
+      "reason": "The message is a phishing attempt requesting the user to share an OTP under threat of account suspension, which is classified as a scam and must be muted.",
+      "confidence": "0.7",
+      "evidence_message_ids": "message_0213;message_0199;message_0196",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_051": {
+    "status": "done",
+    "result": {
+      "message_id": "msg_051",
+      "action": "mute",
+      "message_type": "promotion",
+      "reason": "Gate Override: User has explicitly opted out of marketing promotions from this sender.",
+      "confidence": "0.92",
+      "evidence_message_ids": "none",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_097": {
+    "status": "done",
+    "result": {
+      "message_id": "msg_097",
+      "action": "digest",
+      "message_type": "personal",
+      "reason": "The message is a casual, non-urgent personal status check-in ('Reached home and had dinner... Nothing urgent') which does not require immediate interruption and fits the criteria for digest.",
+      "confidence": "0.76",
+      "evidence_message_ids": "message_0359;message_0168;message_0226",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_089": {
+    "status": "done",
+    "result": {
+      "message_id": "msg_089",
+      "action": "notify",
+      "message_type": "personal",
+      "reason": "The message contains a time-sensitive update regarding a lost item (water bottle) that must be picked up by 7 PM today, which requires immediate notification.",
+      "confidence": "0.76",
+      "evidence_message_ids": "none",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_053": {
+    "status": "done",
+    "result": {
+      "message_id": "msg_053",
+      "action": "digest",
+      "message_type": "business_update",
+      "reason": "The message is a non-urgent market update shared in the 'Global Stock Watch' group. The sender explicitly notes there is no intraday call and suggests reading it after market hours, making it ideal for a digest rather than an immediate notification.",
+      "confidence": "0.7",
+      "evidence_message_ids": "none",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_059": {
+    "status": "done",
+    "result": {
+      "message_id": "msg_059",
+      "action": "mute",
+      "message_type": "scam",
+      "reason": "The message uses high-pressure tactics to solicit sensitive financial information (account number) under the guise of claiming benefits before a deadline, which is characteristic of a scam.",
+      "confidence": "0.7",
+      "evidence_message_ids": "message_0213;message_0199;message_0196",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_024": {
+    "status": "done",
+    "result": {
+      "message_id": "msg_024",
+      "action": "mute",
+      "message_type": "promotion",
+      "reason": "Gate Override: User has explicitly opted out of marketing promotions from this sender.",
+      "confidence": "0.92",
+      "evidence_message_ids": "none",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_072": {
+    "status": "done",
+    "result": {
+      "message_id": "msg_072",
+      "action": "mute",
+      "message_type": "scam",
+      "reason": "The message is a phishing scam sent to a marketplace group, using high-pressure tactics (threatening account hold by 6 PM) to trick the user into entering an OTP on a suspicious external link (account-help.in/verify).",
+      "confidence": "0.7",
+      "evidence_message_ids": "message_0213;message_0199;message_0196",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_036": {
+    "status": "done",
+    "result": {
+      "message_id": "msg_036",
+      "action": "mute",
+      "message_type": "scam",
+      "reason": "Gate Override: Sender domain is newly registered or mismatched with official brand domain.",
+      "confidence": "0.92",
+      "evidence_message_ids": "message_0127;message_0128;message_0283",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_076": {
+    "status": "done",
+    "result": {
+      "message_id": "msg_076",
+      "action": "mute",
+      "message_type": "scam",
+      "reason": "Gate Override: Sender domain is newly registered or mismatched with official brand domain.",
+      "confidence": "0.92",
+      "evidence_message_ids": "message_0159;message_0207;message_0208",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_055": {
+    "status": "done",
+    "result": {
+      "message_id": "msg_055",
+      "action": "notify",
+      "message_type": "urgent",
+      "reason": "The message contains an extremely time-sensitive request requiring a decision within the next ten minutes. Since it was received at 06:33, which is outside the user's DND window (ending at 06:30), it warrants immediate notification.",
+      "confidence": "0.7",
+      "evidence_message_ids": "message_0166;message_0387;message_0165",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_102": {
+    "status": "done",
+    "result": {
+      "message_id": "msg_102",
+      "action": "notify",
+      "message_type": "urgent",
+      "reason": "The message is a highly time-sensitive operational update requiring the user to stay online for the next 30 minutes to monitor a rollback, which warrants immediate notification.",
+      "confidence": "0.76",
+      "evidence_message_ids": "message_0003;message_0060;message_0170",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_080": {
+    "status": "done",
+    "result": {
+      "message_id": "msg_080",
+      "action": "notify",
+      "message_type": "urgent",
+      "reason": "The message is a highly time-sensitive society notice requiring the recipient to move their car within 10 minutes to avoid security shifting it. This falls under immediate operational updates requiring urgent awareness.",
+      "confidence": "0.76",
+      "evidence_message_ids": "message_0029;message_0129;message_0215",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_093": {
+    "status": "done",
+    "result": {
+      "message_id": "msg_093",
+      "action": "digest",
+      "message_type": "business_update",
+      "reason": "The message is a delivery notification from a verified business (FedEx). Since it was received at 22:19, which is within the user's DND window (21:00-06:30), and does not require immediate urgent action, it is routed to digest.",
+      "confidence": "0.77",
+      "evidence_message_ids": "none",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_034": {
+    "status": "done",
+    "result": {
+      "message_id": "msg_034",
+      "action": "mute",
+      "message_type": "forward",
+      "reason": "Gate Override: Viral forwarded message (forwarded_count=11).",
+      "confidence": "0.92",
+      "evidence_message_ids": "message_0123;message_0241;message_0078",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_035": {
+    "status": "done",
+    "result": {
+      "message_id": "msg_035",
+      "action": "digest",
+      "message_type": "promotion",
+      "reason": "The message is a promotional outreach from a verified business (RazorpayX) that the user has opted into and historically opened. Since it contains no urgent or time-sensitive information, it is routed to the digest.",
+      "confidence": "0.9",
+      "evidence_message_ids": "message_0125;message_0126;message_0281",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_101": {
+    "status": "done",
+    "result": {
+      "message_id": "msg_101",
+      "action": "digest",
+      "message_type": "personal",
+      "reason": "The message is a casual personal check-in sent during the user's DND window (06:07) and explicitly states there is no need to reply immediately, making it suitable for a digest.",
+      "confidence": "0.76",
+      "evidence_message_ids": "message_0268;message_0370;message_0229",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_041": {
+    "status": "done",
+    "result": {
+      "message_id": "msg_041",
+      "action": "digest",
+      "message_type": "business_update",
+      "reason": "The message is a non-urgent survey request from a verified business (Polaris School of Technology) with no immediate deadline, making it suitable for a digest rather than immediate notification.",
+      "confidence": "0.72",
+      "evidence_message_ids": "message_0138;message_0137",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_011": {
+    "status": "done",
+    "result": {
+      "message_id": "msg_011",
+      "action": "mute",
+      "message_type": "forward",
+      "reason": "The message is a forwarded chain letter (Forwarded Count: 8) containing a generic morning greeting. The recipient has already muted the 'Mehra Family' group, and historical evidence shows they consistently dismiss similar forwarded greetings.",
+      "confidence": "0.7",
+      "evidence_message_ids": "message_0123;message_0241;message_0078",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_110": {
+    "status": "done",
+    "result": {
+      "message_id": "msg_110",
+      "action": "mute",
+      "message_type": "scam",
+      "reason": "Gate Override: System prompt injection attempt detected.",
+      "confidence": "0.92",
+      "evidence_message_ids": "message_0238;message_0381",
+      "potential_prompt_injection": true,
+      "injection_confidence": 0.95
+    }
+  },
+  "msg_095": {
+    "status": "done",
+    "result": {
+      "message_id": "msg_095",
+      "action": "mute",
+      "message_type": "scam",
+      "reason": "Gate Override: System prompt injection attempt detected.",
+      "confidence": "0.92",
+      "evidence_message_ids": "message_0202;message_0184;message_0201",
+      "potential_prompt_injection": true,
+      "injection_confidence": 0.95
+    }
+  },
+  "msg_074": {
+    "status": "done",
+    "result": {
+      "message_id": "msg_074",
+      "action": "mute",
+      "message_type": "scam",
+      "reason": "The message requests an upfront token payment of Rs 11,000 with a promise of registry papers after payment, which is a common advance-fee scam tactic. It has been forwarded 7 times in a group that the user has already muted, and aligns with previously dismissed suspicious land token messages.",
+      "confidence": "0.7",
+      "evidence_message_ids": "message_0164;message_0163;message_0389",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_073": {
+    "status": "done",
+    "result": {
+      "message_id": "msg_073",
+      "action": "mute",
+      "message_type": "scam",
+      "reason": "The message uses high-pressure tactics threatening profile restriction and demanding immediate verification via a link, which is characteristic of a phishing scam. It has also been forwarded 9 times in a marketplace group, indicating it is likely spam/scam.",
+      "confidence": "0.7",
+      "evidence_message_ids": "message_0202;message_0184;message_0201",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_054": {
+    "status": "done",
+    "result": {
+      "message_id": "msg_054",
+      "action": "mute",
+      "message_type": "scam",
+      "reason": "The message is a fraudulent advance-fee loan scam sent in an unrelated group ('Local Food Finds') urging immediate payment via a link.",
+      "confidence": "0.7",
+      "evidence_message_ids": "none",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_068": {
+    "status": "done",
+    "result": {
+      "message_id": "msg_068",
+      "action": "digest",
+      "message_type": "event",
+      "reason": "The message is a non-urgent group update regarding planning a post-match gathering and a poll to be posted later. Since it explicitly states there is no urgency, it is routed to digest.",
+      "confidence": "0.7",
+      "evidence_message_ids": "message_0191;message_0192",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_100": {
+    "status": "done",
+    "result": {
+      "message_id": "msg_100",
+      "action": "notify",
+      "message_type": "urgent",
+      "reason": "The message is highly time-sensitive, warning of a client escalation starting in 20 minutes due to payment worker retries. Historical evidence shows the user consistently responds to similar urgent operational requests.",
+      "confidence": "0.76",
+      "evidence_message_ids": "message_0118;message_0055;message_0228",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_062": {
+    "status": "done",
+    "result": {
+      "message_id": "msg_062",
+      "action": "digest",
+      "message_type": "event",
+      "reason": "Gate Override: Message arrived during user DND window. Downgraded notify -> digest. Original reason: The message is a time-sensitive society notice regarding a fire alarm test and elevator maintenance scheduled for tomorrow morning (9 AM to 11 AM). This is an operational update requiring timely awareness to prevent residents from being trapped or panicked, justifying a direct notification.",
+      "confidence": "0.92",
+      "evidence_message_ids": "message_0271;message_0030",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_096": {
+    "status": "done",
+    "result": {
+      "message_id": "msg_096",
+      "action": "notify",
+      "message_type": "urgent",
+      "reason": "The message is highly time-sensitive, informing the user that their lost passport has been found at their building's reception and must be retrieved before 18:00 today.",
+      "confidence": "0.76",
+      "evidence_message_ids": "none",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_043": {
+    "status": "done",
+    "result": {
+      "message_id": "msg_043",
+      "action": "mute",
+      "message_type": "forward",
+      "reason": "Gate Override: Viral forwarded message (forwarded_count=11).",
+      "confidence": "0.92",
+      "evidence_message_ids": "message_0271;message_0030",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_077": {
+    "status": "done",
+    "result": {
+      "message_id": "msg_077",
+      "action": "digest",
+      "message_type": "event",
+      "reason": "Gate Override: Message arrived during user DND window. Downgraded notify -> digest. Original reason: The message is an urgent school circular regarding a field trip tomorrow, requiring immediate action tonight (signing consent, packing lunch, and bus list closing this evening). This falls under same-day operational updates and immediate time-sensitive deadlines.",
+      "confidence": "0.92",
+      "evidence_message_ids": "message_0209;message_0133;message_0051",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_081": {
+    "status": "done",
+    "result": {
+      "message_id": "msg_081",
+      "action": "notify",
+      "message_type": "event",
+      "reason": "The message is a same-day school transport update informing parents that today's pickup has been moved to Gate 2 by 3:40 PM. This requires immediate awareness and action, matching the criteria for 'notify'.",
+      "confidence": "0.76",
+      "evidence_message_ids": "message_0217",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_025": {
+    "status": "done",
+    "result": {
+      "message_id": "msg_025",
+      "action": "notify",
+      "message_type": "business_update",
+      "reason": "The message is a same-day operational update regarding an active order (ending 4821) expected to reach the local hub today. Historical evidence shows the user actively engages with updates for this order, making it highly relevant for immediate notification.",
+      "confidence": "0.84",
+      "evidence_message_ids": "message_0105;message_0106;message_0239",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_084": {
+    "status": "done",
+    "result": {
+      "message_id": "msg_084",
+      "action": "mute",
+      "message_type": "promotion",
+      "reason": "Gate Override: User has explicitly opted out of marketing promotions from this sender.",
+      "confidence": "0.92",
+      "evidence_message_ids": "none",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  },
+  "msg_022": {
+    "status": "done",
+    "result": {
+      "message_id": "msg_022",
+      "action": "notify",
+      "message_type": "payment",
+      "reason": "The message is a time-sensitive payment reminder ('due today') sent to the Society Maintenance Desk group. Although the timestamp is late, it contains an explicit same-day deadline, which qualifies for immediate notification under the routing guidelines.",
+      "confidence": "0.7",
+      "evidence_message_ids": "message_0150;message_0149",
+      "potential_prompt_injection": false,
+      "injection_confidence": 0.0
+    }
+  }
+}
